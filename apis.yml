@@ -1,8 +1,12 @@
 aid: easyway-technologies
 name: EasyWay Technologies
-description: EasyWay Technologies is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: EasyWay Technologies (easyway.ai) builds generative-AI guest-experience agents for the
+  hospitality industry, used by 400+ hotels including Banyan Tree, InterContinental, Fairmont and Sofitel.
+  Its AI Concierge, AI Reservation Manager and AI Receptionist automate guest messaging, bookings and
+  check-in/check-out with 24/7 replies across 100+ languages, integrating with existing hotel systems.
+  A Techstars-backed startup, EasyWay has been acquired by Duve and now operates as part of Duve's
+  guest-experience platform. EasyWay exposes no public developer API, SDKs, or documentation surface;
+  this profile is maintained in the API Evangelist network as a company/provider record.
 url: https://raw.githubusercontent.com/api-evangelist/easyway-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://easyway.ai/wp-content/uploads/2024/01/Frame-3963.svg
 tags:
 - Company
+- Hospitality
+- Artificial Intelligence
+- Conversational AI
+- Guest Experience
+- Hotels
+- Travel
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/easyway-technologies-domain-security.yml
 - type: Website
   url: https://easyway.ai/
+- type: TermsOfService
+  url: https://duve.com/terms/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
